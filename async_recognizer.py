@@ -158,7 +158,7 @@ async def image_recognizer(image):
                 "params": {"queryVector": embedding},
             }
         }
-    })
+    }, timeout=10)
 
     for i in response["hits"]["hits"]:
         candidate_name = i["_source"]["title_name"]
