@@ -129,6 +129,4 @@ dmypy.json
 .pyre/
 .idea
 .DS_Store
-.idea
-.DS_Store
 !/embedding/model.onnx
