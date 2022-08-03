@@ -1,0 +1,8 @@
+elasticsearch[async]
+mtcnn-onnxruntime
+imutils
+tqdm
+torch
+torchvision
+numpy
+pandas
