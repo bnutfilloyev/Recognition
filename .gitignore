@@ -129,10 +129,7 @@ dmypy.json
 .pyre/
 .idea
 .DS_Store
-!/embedding/model.onnx
-!/mtcnnort/weights/onet.onnx
-!/mtcnnort/weights/pnet.onnx
-!/mtcnnort/weights/rnet.onnx
-!/test.jpeg
-!/test.jpg
-!/result.csv
+*.onnx
+*.csv
+*.jpeg
+*.jpg
